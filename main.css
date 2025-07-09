@@ -1,0 +1,42 @@
+/* -------------------------------------
+   題目（セクションタイトル）スタイル
+------------------------------------- */
+.title {
+  background-color: #c94d4d; /* 鮮やかすぎない深めの赤 */
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------------------------
+   コース別のカラーラベル（背景と文字色の調和）
+------------------------------------- */
+.course-label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 色別のコース */
+.course-energy {
+  background-color: #d9534f; /* 赤：力強くも柔らかい */
+}
+
+.course-design {
+  background-color: #f0ad4e; /* オレンジ：親しみと創造性 */
+}
+
+.course-electronics {
+  background-color: #5cb85c; /* 緑：安心感と技術的信頼 */
+}
+
+.course-ai {
+  background-color: #5bc0de; /* 青：知性・爽やかさ */
+}
